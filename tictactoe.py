@@ -58,7 +58,7 @@ def playgame(player):
     while winner == False:
         if iswinner(board):
             break
-        move = input("Please enter a move (1-9):")
+        move = input(f"'{player}', Please enter a move (1-9):")
         if checkMove(move, board):
             clearBoard()
             board[int(move)-1] =  player
