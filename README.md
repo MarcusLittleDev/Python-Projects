@@ -1,2 +1,2 @@
-# tic-tac-toe
-simple console tic tac toe game made in python
+# Python-Project
+A couple of different python projects done while taking some udemy courses
